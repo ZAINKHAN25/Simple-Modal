@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mainwork{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://vanilla-js-basic-project-6-modal.netlify.app/hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainworkkabeta{
+    background-color: white;
+    width: 60vw;
+    height: 40vh;
+    padding: 2vw 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: .1vw .5vh 30px .3vw black;
+    border-radius: 1vw 1vh;
+}
+
+.heading{
+    font-size: 5vw;
+    color: black;
+    font-weight: bold;
+}
+
+#btn{
+    width: 15vw;
+    padding: .5vw 1vh;
+    font-size: 2vw;
+}
+
+#modaltime{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(140, 192, 209, .8);
+    visibility: hidden;
+}
+
+.modalkabeta{
+    background-color: rgb(255, 255, 255);
+    width: 40vw;
+    height: 20vh;
+    padding: 2vw 2vh;
+}
+
+.chotaheading{
+    font-size: 4vw;
+    font-weight: bold;
+    padding-top: 2vh;
+    text-align: center;
+}
+
+.x{
+    color:red;
+    transform: rotate(0deg);
+    transition: .4s ease-in-out;
+}
+
+.x:hover{
+    transform: rotate(90deg);
+}
